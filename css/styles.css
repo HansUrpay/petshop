@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-superior {
+  color: #f3f3f3;
+  background-color: #222222;
+  font-weight: 400;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+
+.lista-superior {
+  display: flex;
+  margin-left: 1030px;
+}
+
+.contenedor-principal {
+  color: #ffffff;
+  background-color: #f0a83e;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-principal {
+  list-style: none;
+  display: flex;
+  margin-left: 720px;
+}
+
+li {
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+
+li > img {
+  margin-right: 2.5px;
+  vertical-align: middle;
+}
+
+.front {
+  color: #3c2313;
+  font-weight: 700;
+  margin-right: 3px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.img-dog,
+.img-cat {
+  height: 23px;
+  width: 23px;
+  margin: 0px -3px -6px;
+}
+
+.banner {
+  background-image: url("../img/bowl-and-pet-daities-on-green-background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.texto-banner{
+    margin-right: 30px;
+    width: 485px;
+}
+
+.texto-banner > p {
+  font-weight: 400;
+}
+
+.texto-superior-banner {
+  font-size: 40px;
+  height: 60px;
+  background-color: #ffffff;
+  color: #3c2313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.texto-medio-banner{
+    font-size: 25px;
+    color: #3c2313;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.texto-inferior-banner{
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    height: 65px;
+    width: 215px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
