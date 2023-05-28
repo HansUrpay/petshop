@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -77,9 +77,9 @@ h1 {
   align-items: center;
 }
 
-.texto-banner{
-    margin-right: 30px;
-    width: 485px;
+.texto-banner {
+  margin-right: 30px;
+  width: 485px;
 }
 
 .texto-banner > p {
@@ -97,22 +97,105 @@ h1 {
   border-radius: 5px;
 }
 
-.texto-medio-banner{
-    font-size: 25px;
-    color: #3c2313;
-    text-align: center;
-    margin: 15px auto;
+.texto-medio-banner {
+  font-size: 25px;
+  color: #3c2313;
+  text-align: center;
+  margin: 15px auto;
 }
 
-.texto-inferior-banner{
-    font-size: 25px;
-    color: #ffffff;
-    background-color: #F0A83E;
-    border-radius: 5px;
-    height: 65px;
-    width: 215px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.texto-inferior-banner {
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #f0a83e;
+  border-radius: 5px;
+  height: 65px;
+  width: 215px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 23px auto;
+}
+
+.texto-productos > h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 12px auto;
+  color: #3c2313;
+}
+
+.texto-productos > img {
+  display: block;
+  margin: auto;
+}
+
+.texto-productos > p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin: 25px auto;
+  color: #666666;
+}
+
+.texto-productos > p > span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-productos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure {
+  margin: auto 10px;
+}
+
+figure > img {
+  width: 295px;
+}
+
+figcaption {
+  text-align: center;
+  background-color: #fbfaf6;
+  margin-top: -5px;
+}
+
+.descripcion-img-producto,
+.precio {
+  color: #3c2313;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.precio {
+  color: #f0a83e;
+}
+
+.contacto > h2 {
+  text-align: center;
+  margin-top: 70px;
+  font-weight: 700;
+  color: #3c2313;
+  font-size: 30px;
+}
+
+form {
+  display: grid;
+  row-gap: 1rem;
+  margin: 20px auto;
+  width: 300px;
+}
+
+input{
+  background-color: #3c2313;
+}
+

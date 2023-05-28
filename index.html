@@ -34,25 +34,64 @@
     </header>
     <main>
       <section class="banner">
-        <section class="texto-banner">
+        <div class="texto-banner">
           <p class="texto-superior-banner">¡Es un placer tenerte aquí!</p>
           <p class="texto-medio-banner">¡Comederos en descuento!</p>
           <p class="texto-inferior-banner">COMEDEROS</p>
-        </section>
+        </div>
       </section>
       <section class="productos">
-        <img src="./img/pawprint.png" alt="pawprint" />
-        <h1>Productos Destacados</h1>
-        <p>Comederos - Accesorios - Comidas</p>
-        <img src="./img/churrasquito.png" alt="churrasquito" />
-        <p>Juguete Churrasquito</p>
-        <p>$150</p>
-        <img src="./img/comedero.png" alt="comedero" />
-        <p>Comedero para perro</p>
-        <p>$150</p>
-        <img src="./img/Huesito.png" alt="huesito" />
-        <p>Juguete Huesito</p>
-        <p>$150</p>
+        <div class="texto-productos">
+          <img class="huellitas" src="./img/pawprint.png" alt="pawprint" />
+          <h2>Productos Destacados</h2>
+          <p>Comederos <span>-</span> Accesorios <span>-</span> Comida</p>
+        </div>
+      </section>
+      <section class="img-productos">
+        <figure>
+          <img src="./img/churrasquito.png" alt="churrasquito" />
+          <figcaption>
+            <p class="descripcion-img-producto">Juguete Churrasquito</p>
+            <p class="precio">$150</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./img/comedero.png" alt="comedero" />
+          <figcaption>
+            <p class="descripcion-img-producto">Comedero para perro</p>
+            <p class="precio">$150</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./img/Huesito.png" alt="huesito" />
+          <figcaption>
+            <p class="descripcion-img-producto">Juguete Huesito</p>
+            <p class="precio">$150</p>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="contacto">
+        <h2>Contáctanos</h2>
+        <form action="">
+          <input
+            type="text"
+            name="nombre-apellido"
+            id="nombre-apellido"
+            placeholder="Nombre y Apellido"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingresa tu correo electrónico"
+          />
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Teléfono"
+          />
+        </form>
       </section>
     </main>
     <footer>
